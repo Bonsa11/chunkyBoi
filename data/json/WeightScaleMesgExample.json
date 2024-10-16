@@ -1,0 +1,17 @@
+{
+    "timestamp": 1728940800,  // Unix timestamp (seconds since UTC 00:00 Dec 31, 1989)
+    "weight": 7520,           // Weight in kilograms, scaled by 100 (e.g., 75.20 kg)
+    "percent_fat": 1850,      // Body fat percentage, scaled by 100 (e.g., 18.50%)
+    "percent_hydration": 6000, // Hydration percentage, scaled by 100 (e.g., 60.00%)
+    "visceral_fat_mass": 200, // Visceral fat mass in kilograms, scaled by 100 (e.g., 2.00 kg)
+    "bone_mass": 350,         // Bone mass in kilograms, scaled by 100 (e.g., 3.50 kg)
+    "muscle_mass": 4000,      // Muscle mass in kilograms, scaled by 100 (e.g., 40.00 kg)
+    "basal_met": 375,         // Basal metabolic rate, scaled by 4 (e.g., 1500 kcal/day)
+    "physique_rating": 5,     // Physique rating (e.g., 5 out of 9)
+    "active_met": 500,        // Active metabolic rate, scaled by 4 (e.g., 2000 kcal/day)
+    "metabolic_age": 25,      // Metabolic age in years (e.g., 25 years old)
+    "visceral_fat_rating": 10, // Visceral fat rating (e.g., a rating of 10)
+    "user_profile_index": 1,  // User profile index (1 means the first user profile)
+    "bmi": 225                // BMI, scaled by 10 (e.g., 22.5 kg/m²)
+  }
+  
