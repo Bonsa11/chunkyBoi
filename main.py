@@ -7,12 +7,12 @@ from fit_tool.profile.profile_type import Weight, Manufacturer, FileType # type:
 # https://bitbucket.org/stagescycling/python_fit_tool/src/main/
 
 data = {
-  "weight": 70.5,
-  "percent_fat": 20.0,
-  "percent_hydration": 60.0,
-  "visceral_fat_mass": 12.0,
-  "bone_mass": 3.0,
-  "muscle_mass": 30.0,
+  "weight": 104.4,
+  "percent_fat": 26.4,
+  "percent_hydration": 53.1,
+  "visceral_fat_mass": 13.1,
+  "bone_mass": 3.8,
+  "muscle_mass": 73.0,
 }
 
 def main():
@@ -27,6 +27,10 @@ def main():
     weight_message.timestamp = round(datetime.now().timestamp() * 1000)
     weight_message.weight = data["weight"]
     weight_message.percent_fat = data["percent_fat"]
+    weight_message.percent_hydration = data["percent_hydration"]
+    weight_message.visceral_fat_mass = data["visceral_fat_mass"]
+    weight_message.bone_mass = data["bone_mass"]
+    weight_message.muscle_mass = data["muscle_mass"]
 
     builder = FitFileBuilder(auto_define=True, min_string_size=50)
     builder.add(file_id_message)
